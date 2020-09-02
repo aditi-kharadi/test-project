@@ -1,0 +1,36 @@
+.l2 {
+	background: #ececec;
+}
+
+.hov:hover {
+	background: #e2e2e2;
+}
+.upp {
+	background: white;
+}
+
+.hrrr {
+    
+    width: 100%;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.scrollbar {
+  position: relative;
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scrollbar-lady-lips::-webkit-scrollbar {
+width: 4px;
+background-color: #F5F5F5; }
+
+.scrollbar-lady-lips::-webkit-scrollbar-thumb {
+border-radius: 0px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(bottom, #dbd9d9 0%, #dbd9d9 100%);
+background-image: linear-gradient(to top, #dbd9d9 0%,  #dbd9d9 100%); }

@@ -1,0 +1,60 @@
+.bgc {
+	background: white;	
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+
+.flex-child2 {
+    flex: 4;
+}
+
+.flex-child1 {
+    flex: 0.5;
+}
+  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.wd {
+	
+	flex-shrink : 1;
+}
+
+.des {
+	text-align: left;
+}
+
+.text {
+	line-height: 0.2;
+}
+
+.mar {
+    margin-top: 30px;
+}
+
+.text2 {
+	font-size: 100%;
+}
+
+.time {
+	font-size: 80%;
+	color: gray;
+}
+
+.hrr {
+    margin-top: 40px;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
